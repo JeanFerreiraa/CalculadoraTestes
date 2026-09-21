@@ -1,0 +1,11 @@
+# Pastas de compilação e binários
+bin/
+obj/
+.vs/
+
+# Relatórios de testes de mutação (Stryker)
+**/StrykerOutput/
+
+# Ficheiros do utilizador da IDE
+*.user
+*.userosscache
