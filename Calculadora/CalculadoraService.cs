@@ -25,5 +25,9 @@ public class CalculadoraService
     {
         return valor % 2 == 0;
     }
+    public bool EhImpar(decimal valor) 
+    {
+        return valor % 2 == 1;
+    }
 
 }

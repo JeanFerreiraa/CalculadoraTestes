@@ -90,4 +90,21 @@ public class UnitTest1
         //Assert
         Assert.Equal(resultadoEsperado, resultado);
     }
+
+    [Theory]
+
+    [InlineData(2, false)]
+    [InlineData(3, true)]
+    [InlineData(7, true)]
+    public void Impar_ComNumerosInteiros_DeveRetornarParCorretamente(int valor, bool resultadoEsperado)
+    {
+        //Arrange
+        var calculadora = new CalculadoraService();
+
+        //Act
+        var resultado = calculadora.EhImpar(valor);
+
+        //Assert
+        Assert.Equal(resultadoEsperado, resultado);
+    }
 }
