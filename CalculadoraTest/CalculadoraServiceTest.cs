@@ -3,7 +3,7 @@ using Xunit;
 
 namespace CalculadoraTest;
 
-public class UnitTest1
+public class CalculadoraServiceTest
 {
     [Fact]
     public void Somar_ComNumerosInteiros_DeveSomarCorretamente()

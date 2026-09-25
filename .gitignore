@@ -5,6 +5,7 @@ obj/
 
 # Relatórios de testes de mutação (Stryker)
 **/StrykerOutput/
+**/TestResults/
 
 # Ficheiros do utilizador da IDE
 *.user
